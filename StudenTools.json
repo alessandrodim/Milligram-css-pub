@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Zotero",
+    "icons": "appicons/zotero.png",
+    "description": "Gestione delle fonti e citazioni bibliografiche.",
+    "price": "Gratis"
+  },
+  {
+    "name": "Notion",
+    "icons": "appicons/notion.png",
+    "description": "App tutto-in-uno per prendere appunti e gestire progetti.",
+    "price": "Gratis"
+  },
+  {
+    "name": "Overleaf",
+    "icons": "appicons/overleaf.png",
+    "description": "Editor LaTeX collaborativo per tesi e articoli.",
+    "price": "Gratis"
+  },
+  {
+    "name": "Mendeley",
+    "icons": "appicons/mendeley.png",
+    "description": "Gestione dei PDF accademici e referenze.",
+    "price": "Gratis"
+  },
+  {
+    "name": "Trello",
+    "icons": "appicons/trello.png",
+    "description": "Organizzazione visiva dei progetti tramite bacheche.",
+    "price": "Gratis"
+  },
+  {
+    "name": "Khan Academy",
+    "icons": "appicons/khan.png",
+    "description": "Piattaforma gratuita per lo studio di varie materie.",
+    "price": "Gratis"
+  }
+]

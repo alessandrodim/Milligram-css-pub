@@ -1,0 +1,163 @@
+/* ======= STILE GENERALE E BOOTSTRAP CUSTOM ======= */
+.contentTable,
+aside,
+header,
+footer {
+	background-color: #ea80fcc4;
+}
+
+.h2,
+.purple {
+	color: #582ecaff;
+}
+
+.form-control:focus,
+.form-select:focus {
+	box-shadow: 0 0 0 0.2rem rgba(88, 46, 202, 0.345);
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.btn-outline-primary {
+	--bs-btn-border-color: #582ecaff;
+	--bs-btn-hover-bg: #582ecaff;
+	--bs-btn-color: #582ecaff;
+}
+
+.btn-primary {
+	--bs-btn-bg: #582ecaff;
+	--bs-btn-hover-bg: var(--bs-btn-bg);
+	--bs-btn-active-bg: white;
+	--bs-btn-active-color: var(--bs-btn-bg);
+}
+
+/* ======= ELEMENTI TIPOGRAFICI ======= */
+h1, .home-title {
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: #582eca;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+h2, .home-subtitle {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 1.5rem;
+}
+
+h3 {
+	margin-top: 1.5rem;
+	color: #7b1fa2;
+}
+
+/* ======= TABELLA DEI CONTENUTI (HOME) ======= */
+.table-of-contents {
+	background-color: #f6e8ff;
+	border: 1px solid #ddb3ff;
+	border-radius: 12px;
+	padding: 1.2rem;
+	margin: 2rem auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+	max-width: 500px;
+}
+
+.table-of-contents h3 {
+	color: #7a1ba2;
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+.table-of-contents ul {
+	padding-left: 1.5rem;
+}
+
+.table-of-contents li {
+	font-size: 1rem;
+	margin-bottom: 0.4rem;
+}
+
+/* ======= IMMAGINE HOME ======= */
+#home-image {
+	display: block;
+	margin: 2rem auto;
+	max-width: 300px;
+	background-color: #f4f4f4;
+	padding: 1rem;
+	border-radius: 10px;
+}
+
+/* ======= SIDEBAR ======= */
+aside {
+	background-color: #f3d9fa !important;
+}
+
+/* ======= TESTI PRINCIPALI ======= */
+main p {
+	font-size: 1.1rem;
+	color: #333;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+}
+
+/* ======= LAYOUT VARI ======= */
+#appContainer #icon {
+	width: 64px;
+	float: left;
+}
+
+#appContainer h5,
+#appContainer p {
+	margin-bottom: 0;
+}
+
+.credit {
+	display: block;
+}
+
+.link-body-emphasis {
+	color: #582ecaff;
+	font-weight: 450;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ======= STILI APPROFONDIMENTI ======= */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+table th, table td {
+	padding: 0.75rem;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+table thead th {
+	background-color: #f8f8f8;
+	font-weight: bold;
+}
+
+pre {
+	background-color: #f4f4f4;
+	border-left: 4px solid #9b59b6;
+	padding: 1rem;
+	overflow-x: auto;
+	font-family: Consolas, Monaco, 'Courier New', monospace;
+	font-size: 0.9rem;
+}
+
+hr {
+	margin: 2rem 0 1rem 0;
+	border: none;
+	border-top: 1px solid #ccc;
+}
